@@ -1,0 +1,72 @@
+/* Fondo general y tipografía */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f4ec; /* Color claro, cálido */
+    color: #4a3f35; /* Marrón suave */
+    margin: 0;
+    padding: 20px;
+    text-align: center;  /* Centra el contenido por defecto */
+}
+
+/* Títulos principales */
+h1 {
+    color: #c06816;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #704300;
+    font-size: 2em;
+    margin-bottom: 9px;
+}
+h3 {
+    color: #000000;
+    font-size: 1,5em;
+    margin-bottom: 9px;
+}
+/* Párrafos */
+p {
+    font-size: 19px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+/* Enlaces como botones */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #e28000;
+    color: #fff;
+    padding: 15px 20px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover */
+a:hover {
+    background-color: #a76f4d;
+}
+
+/* Contenedor general (opcional) */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Espacio entre productos */
+.producto {
+    margin-bottom: 15px;
+}
+/* Para centrar verticalmente el contenido de la página principal */
+.fullscreen-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa toda la pantalla */
+    text-align: center;
+}
