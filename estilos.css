@@ -36,15 +36,17 @@ p {
 
 /* Enlaces como botones */
 a {
-    font-size: 22px;
+    font-size: 1.5rem;
     display: inline-block;
     text-decoration: none;
     background-color: #e28000;
     color: #000000;
-    padding: 40px 50px;
-    margin: 25px;
+    padding: 1em 2em; /* antes tenías 40px 50px: eso era demasiado fijo */
+    margin: 1em;
     border-radius: 20px;
     transition: background-color 0.3s;
+    max-width: 90%;
+    width: auto;
 }
 
 /* Efecto hover */
