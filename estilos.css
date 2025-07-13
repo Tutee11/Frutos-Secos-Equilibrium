@@ -36,11 +36,12 @@ p {
 
 /* Enlaces como botones */
 a {
+    font-size: 22px;
     display: inline-block;
     text-decoration: none;
     background-color: #e28000;
     color: #000000;
-    padding: 25px 25px;
+    padding: 35px 40px;
     margin: 25px;
     border-radius: 20px;
     transition: background-color 0.3s;
