@@ -40,9 +40,9 @@ a {
     text-decoration: none;
     background-color: #e28000;
     color: #fff;
-    padding: 15px 20px;
-    margin: 15px;
-    border-radius: 10px;
+    padding: 30px 30px;
+    margin: 30px;
+    border-radius: 25px;
     transition: background-color 0.3s;
 }
 
