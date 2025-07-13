@@ -36,22 +36,18 @@ p {
 
 /* Enlaces como botones */
 a {
-    font-size: 1.5rem;
+    font-size: 25px;
     display: inline-block;
-    text-decoration: none;     /* sin subrayado */
-    background-color: #e28000; /* color botón */
-    color: #000000;            /* texto */
-    padding: 1em 2em;
-    margin: 1em auto;
-    border-radius: 20px;
-    cursor: pointer;           /* cambia el cursor al pasar encima */
+    text-decoration: none;
+    background-color: #e28000;
+    color: #000000;
+    padding: 40px 50px;
+    margin: 30px;
+    border-radius: 25px;
     transition: background-color 0.3s;
-    max-width: 90%;
-    text-align: center;
-    border: none;              /* quitar borde por si acaso */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* sombra para parecer botón */
 }
 
+/* Efecto hover */
 a:hover {
     background-color: #772600;
 }
